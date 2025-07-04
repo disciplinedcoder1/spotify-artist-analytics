@@ -1,0 +1,38 @@
+# Core Dependencies
+spotipy>=2.22.1                    # Spotify API client
+pandas>=2.0.0                      # Data manipulation
+numpy>=1.24.0                      # Numerical computing
+scikit-learn>=1.3.0                # Machine learning
+matplotlib>=3.7.0                  # Plotting
+seaborn>=0.12.0                    # Statistical visualization
+plotly>=5.15.0                     # Interactive plots
+
+# Web Framework (choose one)
+streamlit>=1.25.0                  # Easy web apps
+# flask>=2.3.0                     # Alternative web framework
+
+# API Integration
+requests>=2.31.0                   # HTTP requests
+python-dotenv>=1.0.0               # Environment variables
+google-api-python-client>=2.95.0   # YouTube API
+tweepy>=4.14.0                     # Twitter API
+
+# Data Processing
+beautifulsoup4>=4.12.0             # Web scraping
+lxml>=4.9.0                        # XML processing
+openpyxl>=3.1.0                    # Excel file handling
+
+# Machine Learning & Analysis
+scipy>=1.11.0                      # Scientific computing
+umap-learn>=0.5.3                  # Dimensionality reduction
+hdbscan>=0.8.29                 333   # Clustering
+textblob>=0.17.1                   # Sentiment analysis
+
+# Caching & Performance
+redis>=4.6.0                       # Caching (optional)
+joblib>=1.3.0                      # Model serialization
+
+# Development Tools
+python-decouple>=3.8               # Configuration management
+loguru>=0.7.0                      # Logging
+tqdm>=4.65.0                       # Progress bars
