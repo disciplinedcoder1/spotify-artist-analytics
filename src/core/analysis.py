@@ -1,7 +1,8 @@
+
 import pandas as pd
 import numpy as np
 from typing import Dict, List, Any, Tuple
-from spotify_utils import SpotifyClient
+from api.spotify_utils import SpotifyClient
 
 class SpotifyAnalyzer:
     def __init__(self, spotify_client: SpotifyClient):
