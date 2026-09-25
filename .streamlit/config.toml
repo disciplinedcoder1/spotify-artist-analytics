@@ -1,0 +1,21 @@
+[theme]
+# Light theme configuration
+primaryColor = "#1DB954"          # Spotify green for interactive elements
+backgroundColor = "#FFFFFF"       # White background
+secondaryBackgroundColor = "#F7F7F8"  # Light gray sections
+textColor = "#0B0B0C"            # Near-black text for contrast
+
+# UI styling
+font = "sans serif"              # Clean typography
+base = "light"                   # Light theme base
+
+[server]
+# Performance settings
+maxUploadSize = 200             # Limit file uploads
+enableCORS = false              # Security setting
+enableXsrfProtection = true     # Security setting
+
+[browser]
+# Browser behavior
+gatherUsageStats = false        # Privacy setting
+showErrorDetails = true         # Development setting
